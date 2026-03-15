@@ -1,0 +1,38 @@
+TEST 1 - Normal Senaryo
+Ogrenci Sayisi: 2
+
+Ogrenci 1
+Kisa: 70
+Ara: 65
+Final: 80
+Beklenen: Basari ≈ 73.5, Harf: BB, Durum: GECTI
+
+Ogrenci 2
+Kisa: 50
+Ara: 55
+Final: 60
+Beklenen: Basari ≈ 56.5, Harf: DD, Durum: KALDI (final<60 şartı nedeniyle)
+
+--------------------------------
+
+TEST 2 - Sinir Deger Senaryosu
+
+Ogrenci
+Kisa: 60
+Ara: 60
+Final: 50
+Beklenen:
+Basari = 56
+Harf = DD
+Durum = KALDI
+
+--------------------------------
+
+TEST 3 - Hatali Giris Senaryosu
+
+Kisa sinav: -10  -> Program tekrar sormalı
+Ara sinav: 120   -> Program tekrar sormalı
+Final: 80
+
+Beklenen:
+Program hatali giris icin tekrar veri ister.
